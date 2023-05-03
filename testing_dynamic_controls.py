@@ -15,8 +15,8 @@ class TestAddRemoveElements(unittest.TestCase):
       self.driver.get(URL)
     
     def tearDown(self):
-      pass
-      #self.driver.quit()
+      #pass
+      self.driver.quit()
 
     def testRemove(self):
       driver = self.driver
